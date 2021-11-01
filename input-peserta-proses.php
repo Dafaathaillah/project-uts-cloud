@@ -11,12 +11,10 @@ $agama=$_POST["agama"];
 $sekolahasal=$_POST["sekolahasal"];
 
 //Query input menginput data kedalam tabel peserta
- 
+  $sql="insert into tbpeserta (id,nama,alamat,jeniskelamin,agama,sekolahasal) values
+		('$id','$nama','$alamat','$jeniskelamin','$agama','$sekolahasal')";
 
 //Mengeksekusi/menjalankan query diatas	
-echo  $sql="insert into tbpeserta (id,nama,alamat,jeniskelamin,agama,sekolahasal) values
-('$id','$nama','$alamat','$jeniskelamin','$agama','$sekolahasal')";
-die();
   $hasil=mysqli_query($db,$sql);
 
 //Kondisi apakah berhasil atau tidak
