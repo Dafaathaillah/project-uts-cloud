@@ -2,7 +2,7 @@
 
 $server = "localhost";
 $user = "root";
-$password = "";
+$password = "Dafa*1234";
 $nama_database = "uts_cloud";
 
 $db = mysqli_connect($server, $user, $password, $nama_database);
