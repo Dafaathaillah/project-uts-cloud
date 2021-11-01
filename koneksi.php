@@ -1,7 +1,7 @@
 <?php
 
-$server = "localhost";
-$user = "root";
+$server = "10.0.0.124";
+$user = "admin";
 $password = "Dafa*1234";
 $nama_database = "uts_cloud";
 
