@@ -1,8 +1,8 @@
 <?php
 
-$server = "10.0.0.124";
+$server = "10.0.0.195";
 $user = "admin";
-$password = "Dafa*1234";
+$password = "Tyas*2828";
 $nama_database = "uts_cloud";
 
 $db = mysqli_connect($server, $user, $password, $nama_database);
